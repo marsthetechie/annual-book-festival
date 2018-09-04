@@ -15,3 +15,11 @@ body {
 table {
     margin: auto;
 }
+
+th {
+    color: maroon;
+}
+
+.left {
+    color: #fff;
+}
