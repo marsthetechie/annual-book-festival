@@ -12,9 +12,28 @@ body {
     font-family: 'Playfair Display', serif;
 }
 
+header {
+    padding: 120px;
+    background: url("./book.jpg") no-repeat center;
+    color: #fff;
+}
+
+header a {
+    color: #fff;
+    background-color: #800000;
+    padding: 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+header a:hover {
+    background-color: #6d0202;
+}
+
 table {
     margin: auto;
-    border: 2px solid black;
+    border: 2px solid #000000;
     border-collapse: collapse;
 }
 
@@ -28,6 +47,12 @@ td {
     padding: 10px;
 }
 
+footer {
+    background-color: #030321;
+    color: #fff;
+    padding: 50px;
+}
+
 .left {
     color: #fff;
     background-color: maroon;
@@ -35,4 +60,12 @@ td {
 
 .left-head {
     background-color: #fff;
+}
+
+#ticket {
+    padding:50px;
+}
+
+#schedule {
+    padding: 50px;
 }
